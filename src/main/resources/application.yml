@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://aws-0-eu-central-1.pooler.supabase.com:6543/postgres
+    username: postgres.qfclkugznedzgbplhrmi
+    password: supabase_database
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+      idle-timeout: 60000
+      connection-timeout: 60000
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      
+jwt:
+  secret: VerySecretKey12345678901234567890
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+# postgresql://postgres.qfclkugznedzgbplhrmi:[YOUR-PASSWORD]@aws-0-eu-central-1.pooler.supabase.com:6543/postgres
