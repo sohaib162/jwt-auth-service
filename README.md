@@ -81,4 +81,4 @@ src/
 - Default logging and `ddl-auto` should be relaxed for production (migrations recommended).  
 - Ensure `JWT_SECRET` is at least 32 chars for HS256 (`hmacShaKeyFor`).
 
-
+![Swagger UI](swagger.png)
